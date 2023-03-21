@@ -1,0 +1,125 @@
+[
+  {
+    "type": "conversationUpdate",
+    "membersAdded": [
+      {
+        "id": "716eda70-905d-11ea-959b-35a7b4709e7c",
+        "name": "Bot"
+      },
+      {
+        "id": "073410ad-5519-4df4-b590-25ff79cd023e",
+        "name": "User"
+      }
+    ],
+    "membersRemoved": [],
+    "channelId": "emulator",
+    "conversation": {
+      "id": "716f0180-905d-11ea-8800-ef119255173b|livechat"
+    },
+    "id": "717a2510-905d-11ea-8800-ef119255173b",
+    "localTimestamp": "2020-05-07T08:22:39-04:00",
+    "recipient": {
+      "id": "716eda70-905d-11ea-959b-35a7b4709e7c",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "timestamp": "2020-05-07T12:22:39.841Z",
+    "from": {
+      "id": "073410ad-5519-4df4-b590-25ff79cd023e",
+      "name": "User",
+      "role": "user"
+    },
+    "locale": "en-US",
+    "serviceUrl": "http://localhost:64666"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:64666",
+    "channelId": "emulator",
+    "from": {
+      "id": "716eda70-905d-11ea-959b-35a7b4709e7c",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "716f0180-905d-11ea-8800-ef119255173b|livechat"
+    },
+    "recipient": {
+      "id": "073410ad-5519-4df4-b590-25ff79cd023e",
+      "role": "user"
+    },
+    "text": "Hello and welcome!",
+    "speak": "Hello and welcome!",
+    "inputHint": "acceptingInput",
+    "attachments": [],
+    "entities": [],
+    "replyToId": "717a2510-905d-11ea-8800-ef119255173b",
+    "id": "718102e0-905d-11ea-8800-ef119255173b",
+    "localTimestamp": "2020-05-07T08:22:39-04:00",
+    "timestamp": "2020-05-07T12:22:39.885Z",
+    "locale": "en-US"
+  },
+  {
+    "channelData": {
+      "clientActivityID": "1588854202343d8tvww9wdzc",
+      "clientTimestamp": "2020-05-07T12:23:22.343Z"
+    },
+    "text": "hello",
+    "textFormat": "plain",
+    "type": "message",
+    "channelId": "emulator",
+    "from": {
+      "id": "073410ad-5519-4df4-b590-25ff79cd023e",
+      "name": "User",
+      "role": "user"
+    },
+    "locale": "en-US",
+    "timestamp": "2020-05-07T12:23:22.346Z",
+    "entities": [
+      {
+        "requiresBotState": true,
+        "supportsListening": true,
+        "supportsTts": true,
+        "type": "ClientCapabilities"
+      }
+    ],
+    "conversation": {
+      "id": "716f0180-905d-11ea-8800-ef119255173b|livechat"
+    },
+    "id": "8acfe4a0-905d-11ea-8800-ef119255173b",
+    "localTimestamp": "2020-05-07T08:23:22-04:00",
+    "recipient": {
+      "id": "716eda70-905d-11ea-959b-35a7b4709e7c",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "serviceUrl": "http://localhost:64666"
+  },
+  {
+    "type": "message",
+    "serviceUrl": "http://localhost:64666",
+    "channelId": "emulator",
+    "from": {
+      "id": "716eda70-905d-11ea-959b-35a7b4709e7c",
+      "name": "Bot",
+      "role": "bot"
+    },
+    "conversation": {
+      "id": "716f0180-905d-11ea-8800-ef119255173b|livechat"
+    },
+    "recipient": {
+      "id": "073410ad-5519-4df4-b590-25ff79cd023e",
+      "role": "user"
+    },
+    "text": "Echo: hello",
+    "speak": "Echo: hello",
+    "inputHint": "acceptingInput",
+    "attachments": [],
+    "entities": [],
+    "replyToId": "8acfe4a0-905d-11ea-8800-ef119255173b",
+    "id": "8ad64d40-905d-11ea-8800-ef119255173b",
+    "localTimestamp": "2020-05-07T08:23:22-04:00",
+    "timestamp": "2020-05-07T12:23:22.387Z",
+    "locale": "en-US"
+  }
+]
